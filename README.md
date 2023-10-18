@@ -83,8 +83,7 @@
 - **quantity** - поле, описывающее количество товара на полке;
 
 ## Cхема базы данных:
-
-
+![](src/main/resources/static/database_scheme.png)
 
 ## Работа с API
 ### Endpoints
