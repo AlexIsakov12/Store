@@ -32,7 +32,7 @@ public class TestDataInitService implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         // инициализируем товары
         Product notebook = Product.builder().id(1L).name("Ноутбук").build();
         Product monitor = Product.builder().id(2L).name("Монитор").build();

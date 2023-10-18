@@ -14,10 +14,6 @@ public class ShelfCategoryService {
         this.shelfCategoryRepository = shelfCategoryRepository;
     }
 
-    public void save(ShelfCategory shelfCategory) {
-        shelfCategoryRepository.save(shelfCategory);
-    }
-
     public void saveAll(List<ShelfCategory> shelfCategoryList) {
         shelfCategoryRepository.saveAll(shelfCategoryList);
     }

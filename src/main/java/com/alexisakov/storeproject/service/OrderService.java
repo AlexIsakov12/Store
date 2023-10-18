@@ -18,8 +18,4 @@ public class OrderService {
         orderRepository.save(order);
     }
 
-    public void saveAll(List<Order> orderList) {
-        orderRepository.saveAll(orderList);
-    }
-
 }

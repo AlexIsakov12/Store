@@ -14,10 +14,6 @@ public class ShelfService {
         this.shelfRepository = shelfRepository;
     }
 
-    public void save(Shelf shelf) {
-        shelfRepository.save(shelf);
-    }
-
     public void saveAll(List<Shelf> shelfList) {
         shelfRepository.saveAll(shelfList);
     }
