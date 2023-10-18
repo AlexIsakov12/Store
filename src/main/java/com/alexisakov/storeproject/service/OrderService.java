@@ -4,8 +4,6 @@ import com.alexisakov.storeproject.models.entity.Order;
 import com.alexisakov.storeproject.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class OrderService {
     private final OrderRepository orderRepository;
